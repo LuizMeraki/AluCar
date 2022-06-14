@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" type="text/css" href="css/style.css">
+          <title>AluCar - Aluguel de Carros</title>
+     </head>
+     <body>
+          <header>
+               <div class="conteudo-menu area-limite-menu">
+                    <span>AluCar</span>
+                    <nav>
+                         <a href="#sobre">Sobre</a>
+                         <a href="#contato">Contato</a>
+                    </nav>
+               </div>
+          </header>
+          <main>
+               <section>
+                    <div class="sombra-capa">
+                         <div class="conteudo-capa area-limite">
+                              <h1>AluCar</h1>
+                              <h2>Aluguel de Carros</h2>
+                         </div>
+                    </div>
+               </section>
+               <section id="sobre">
+                    <div class="area-limite">
+                         <div class="texto-decricao">
+                              <h3>Sobre nós</h3>
+                              <p>Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação. Temos os melhores preços e modelos do mercado.</p>
+                         </div>
+                         <div class="carrossel-de-fotos">
+                              <figure>
+                                   <img src="img/img1.jpg" alt="Carro Fiat">
+                              </figure>
+                              <figure>
+                                   <img src="img/img2.jpg" alt="Caminhonete Nissan">
+                              </figure>
+                              <figure>
+                                   <img src="img/img3.jpg" alt="Carro Gol">
+                              </figure>
+                         </div>
+                         <div class="breve-apresentacao">
+                              <span>O compromisso da AluCar é com a qualidade.</span>
+                              <span>Os melhores carros estão aqui.</span>
+                              <span>Assistência 24h.</span>
+                         </div>
+                    </div>
+               </section>
+               <section class="secao-divisao">
+                    <div class="conteudo-secao-divisao">
+                         <h3>Contato</h3>
+                    </div>
+               </section>
+               <section id="contato">
+                    <div class="area-limite">
+                         <div class="texto-descricao">
+                              <h3>Análise de cadastro</h3>
+                              <p>Preencha os campos abaixo e analisaremos seus dados.</p>
+                              <p>Se tudo estiver correto ligaremos para marcar uma visita sua à loja.</p>
+                         </div>
+                         <div class="area-formulario">
+                              <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+                                   <fieldset>
+                                        <legend>Dados pessoais</legend>
+                                        <div class="grupo-input">
+                                             <label for="nome">Nome</label>
+                                             <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                                        </div>
+                                        <div class="grupo-input">
+                                             <label for="data-nascimento">Data de Nascimento</label>
+                                             <input type="date" id="data-nascimento" name="data_nascimento" required>
+                                        </div>
+                                        <div class="grupo-input">
+                                             <label for="telefone">Telefone</label>
+                                             <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                                        </div>
+                                   </fieldset>
+                                   <fieldset>
+                                        <legend>CNH</legend>
+                                        <div class="grupo-input">
+                                             <label for="numero-registro">Número do Registro</label>
+                                             <input type="number" id="numero" name="numero_registro" placeholder="Informe o número da sua CNH" required>
+                                        </div>
+                                        <div class="grupo-input">
+                                             <label for="validade">Validade</label>
+                                             <input type="date" id="validade" name="validade" required>
+                                        </div>
+                                   </fieldset>
+                                   <fieldset>
+                                        <legend>Carro</legend>
+                                        <div class="grupo-input">
+                                             <label for="modelos-de-carros">Modelo do Carro</label>
+                                             <select name="carro" id="modelos-de-carros" required>
+                                                  <option value="">Escolha um carro</option>
+                                                  <optgroup label="Volkswagem">
+                                                       <option value="gol">Gol</option>
+                                                       <option value="golf">Golf</option>
+                                                       <option value="fox">Fox</option>
+                                                  </optgroup>
+                                                  <optgroup label="Fiat">
+                                                       <option value="uno">Uno</option>
+                                                       <option value="siena">Siena</option>
+                                                       <option value="Palio">Palio</option>
+                                                  </optgroup>
+                                                  <optgroup label="Nissan">
+                                                       <option value="frontier">Frontier</option>
+                                                       <option value="versa">Versa</option>
+                                                       <option value="skyline">Skyline GT-R</option>
+                                             </select>
+                                        </div>
+                                   </fieldset>
+                                   <div class="area-botao">
+                                        <button type="submit">Enviar Dados</button>
+                                   </div>
+                              </form>
+                         </div>
+                    </div>
+               </section>
+          </main>
+          <footer>
+               <div class="area-limite">
+                    <span>Copyright 2022 - AluCar</span>
+               </div>
+          </footer>
+     </body>
+</html>
