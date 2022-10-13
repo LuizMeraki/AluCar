@@ -19,11 +19,11 @@
 
 <p>Este é um site de aluguel de carros, aqui você poderá escolher e alugar o carro que deseja, basta preencher o formulário com suas informações, escolher o modelo na lista de modelos e ainda irá descobrir mais sobre a "empresa" Alucar.
 
-<p>Com esse site coloquei em prática a criação de formulários, utilizando ferramentas como: tipos de input, optgroup, select e entre outros, confira você mesmo!</p>
+<p>Com esse site coloquei em prática o desenvolvimento de formulários, utilizando ferramentas como: tipos de input, optgroup, select e entre outros, confira você mesmo!</p>
 
 ### Entre no site da AluCar
 
-Link: <a href="" target="blank">AluCar</a>
+Link: <a href="https://luizmeraki.github.io/AluCar" target="blank">AluCar</a>
 
 <br>
 
