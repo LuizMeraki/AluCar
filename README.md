@@ -29,7 +29,7 @@ Link: <a href="https://luizmeraki.github.io/AluCar" target="blank">AluCar</a>
 
 ## Tecnologias
 
-<p>Nesta aplicação eu utilizei as seguintes tecnologias:</p>
+<p>Neste site eu utilizei as seguintes tecnologias:</p>
 
 <ul>
   <li>HTML</li>
